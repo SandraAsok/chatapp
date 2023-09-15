@@ -4,9 +4,11 @@ Color white = Colors.white;
 Color black = Colors.black;
 Color purple = Color(0xFF7f30fe);
 Color lightpurple = Color(0xffc199cd);
+Color grey = Colors.grey;
 
 SizedBox height10 = SizedBox(height: 10.0);
 SizedBox height20 = SizedBox(height: 20.0);
+SizedBox height25 = SizedBox(height: 25);
 
 TextStyle commontext =
     TextStyle(color: black, fontSize: 18, fontWeight: FontWeight.bold);
