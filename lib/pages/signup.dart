@@ -64,7 +64,7 @@ class _SignUpState extends State<SignUp> {
                       child: Container(
                         padding: EdgeInsets.symmetric(
                             vertical: 30.0, horizontal: 20.0),
-                        height: kheight / 1.8,
+                        height: kheight / 1.5,
                         width: kwidth,
                         decoration: BoxDecoration(
                           color: white,

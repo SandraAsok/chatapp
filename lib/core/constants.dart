@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 Color white = Colors.white;
 Color black = Colors.black;
 Color purple = Color(0xFF7f30fe);
+Color lightpurple = Color(0xffc199cd);
 
 SizedBox height10 = SizedBox(height: 10.0);
 SizedBox height20 = SizedBox(height: 20.0);

@@ -1,4 +1,6 @@
 import 'package:chatapp/core/constants.dart';
+import 'package:chatapp/pages/chatscreen.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -29,7 +31,7 @@ class _HomeState extends State<Home> {
                 Container(
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
-                      color: Color(0xffc199cd)),
+                      color: lightpurple),
                   child: IconButton(
                       onPressed: () {},
                       icon: Icon(
@@ -58,6 +60,11 @@ class _HomeState extends State<Home> {
                     separatorBuilder: (context, index) => Divider(),
                     itemBuilder: (context, index) {
                       return ListTile(
+                        onTap: () {
+                          Navigator.of(context).push(CupertinoPageRoute(
+                            builder: (context) => ChatScreen(),
+                          ));
+                        },
                         leading: CircleAvatar(radius: 30),
                         title: Text(
                           "Name",
